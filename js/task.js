@@ -7,9 +7,8 @@ let numArr = arr.filter(item => item === +item)
 console.log(numArr)
 
 //Even
-let evenArr = numArr.map(item => item % 2 ? item = 2 : item)
+let evenArr = numArr.map(item => item % 2 ? 2 : item)
 console.log(evenArr)
-
 
 //Reverse
 let reverseArr = evenArr.reverse()
